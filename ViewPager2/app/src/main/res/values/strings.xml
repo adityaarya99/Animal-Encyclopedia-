@@ -1,7 +1,4 @@
 <resources>
     <string name="app_name">ViewPager</string>
-    <string name="giraffe">Giraffes are found in the dry savannahs of Africa,
-        where they roam among the open plains and woodlands. Well known for their long necks,
-        these gentle giants are the world’s tallest living land animals.
-        An adult male can grow to around 5.5m – that’s taller than three adult humans!</string>
+    <string name="giraffe">Giraffes are found in the dry savannahs of Africa, where they roam among the open plains and woodlands. Well known for their long necks,these gentle giants are the world’s tallest living land animals.An adult male can grow to around 5.5m – that’s taller than three adult humans!</string>
 </resources>

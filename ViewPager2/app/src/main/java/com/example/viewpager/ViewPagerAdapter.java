@@ -10,6 +10,8 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.viewpager.widget.PagerAdapter;
+
+import java.util.List;
 import java.util.Objects;
 
 class ViewPagerAdapter extends PagerAdapter {
@@ -21,14 +23,14 @@ class ViewPagerAdapter extends PagerAdapter {
     // Array of images 
     int[] images;
 
-        String[] animals;
+        List<String> animals;
 
     // Layout Inflater
     LayoutInflater mLayoutInflater;
 
 
     // Viewpager Constructor  
-    public ViewPagerAdapter(Context context, int[] images, String[] animals) {
+    public ViewPagerAdapter(Context context, int[] images, List<String> animals) {
         this.context = context;
         this.images = images;
         this.animals = animals;
@@ -58,7 +60,7 @@ class ViewPagerAdapter extends PagerAdapter {
 
         // setting the image in the imageView 
         imageView.setImageResource(images[position]);
-        textView.setText(animals[position]);
+        textView.setText(animals.get(position));
 
         // Adding the View 
         Objects.requireNonNull(container).addView(itemView);
