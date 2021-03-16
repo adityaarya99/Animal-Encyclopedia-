@@ -1,4 +1,31 @@
 <resources>
     <string name="app_name">ViewPager</string>
-    <string name="giraffe">Giraffes are found in the dry savannahs of Africa, where they roam among the open plains and woodlands. Well known for their long necks,these gentle giants are the world’s tallest living land animals.An adult male can grow to around 5.5m – that’s taller than three adult humans!</string>
+    <string name="giraffe"><u>Giraffes</u> are found in the dry savannahs of Africa,
+        where they roam among the open plains and woodlands.
+        Well known for their long necks,these gentle giants are the world’s tallest living land animals.
+        An adult male can grow to around 5.5m – that’s taller than three adult humans!</string>
+    <string name="elephant"><u>Elephants</u> are the world’s largest land animal!
+        Male African elephants can reach 3m tall and weigh between 4,000 -7,500kg.
+        Asian elephants are slightly smaller, reaching 2.7m tall and weighing 3,000– 6,000kg.</string>
+    <string name="tiger"><u>Tigers</u> are the largest wild cats in the world.
+    Adults can weigh up to 363kg (that’s about the same as ten ten year olds!) and measure up to 3.3m!
+    Tigers are carnivores, eating only meat. They mainly feed on large mammals such as deer, wild pigs, antelope and buffalo.</string>
+    <string name="kangaroo"><u>Kangaroos</u> belong to the animal family Macropodidae,
+        which literally means ‘big foot.’ Thanks to their large feet and powerful hind legs,
+        kangaroos can travel more than 56km/h and leap more than 9m in a single bound
+        – that’s more than six ten-year-olds lying head to toe!</string>
+    <string name="penguin">Emperor penguins are truly beautiful birds.
+        Adults have a white stomach and a black head, back, tail and wings.
+        They also have yellowy-gold markings on the side of their head and neck.</string>
+    <string name="fox">Red foxes are highly adaptable, which explains
+        why you can find them in so many different environments, from woodlands and mountains to deserts and cities!
+        Their resourcefulness has earned red foxes a reputation for being clever and cunning.</string>
+    <string name="monkey">Monkeys. are clever, social animals.
+        They are known for running and leaping through trees with ease. Like apes and humans,
+        monkeys belong to the group of mammals called primates.
+        Monkeys look somewhat like apes such as chimpanzees, orangutans, and gorillas.</string>
+    <string name="bear">Bears are large, powerful mammals related to dogs and raccoons.
+        The biggest bears are the world’s largest animals that live on land and eat meat.
+    Bears are found in the Americas, Europe, and Asia.
+        They are often found in mountainous areas and forests.</string>
 </resources>

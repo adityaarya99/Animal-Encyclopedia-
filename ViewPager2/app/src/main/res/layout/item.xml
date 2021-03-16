@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="10dp">
+    android:padding="15dp">
 
     <!-- image viwer to view the images -->
     <ImageView
@@ -14,11 +14,26 @@
         android:background="@drawable/imageborder" />
 <TextView
     android:id="@+id/imageViewText"
+    android:layout_marginTop="15dp"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-
-
+    android:fontFamily="monospace"
+    android:textSize="14dp"
+    android:textStyle="bold"
+    android:textColor="@color/black"
     />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/yellow"
+        android:drawableRight="@drawable/ic_baseline_arrow"
+        android:text="Swipe"
+        android:layout_marginTop="15dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:textColor="@color/orange"
+        />
     <!--<LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

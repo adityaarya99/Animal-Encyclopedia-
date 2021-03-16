@@ -25,13 +25,13 @@ public class MainActivity extends AppCompatActivity {
 
         List<String> animals = new ArrayList<String>();
         animals.add(getString(R.string.giraffe));
-        animals.add("Elephant");
-        animals.add("Tiger");
-        animals.add("Bear");
-        animals.add("Fox");
-        animals.add("Brat");
-        animals.add("Girafee");
-        animals.add("Bear");
+        animals.add(getString(R.string.elephant));
+        animals.add(getString(R.string.tiger));
+        animals.add(getString(R.string.kangaroo));
+        animals.add(getString(R.string.penguin));
+        animals.add(getString(R.string.fox));
+        animals.add(getString(R.string.monkey));
+        animals.add(getString(R.string.bear));
 
         return animals;
     }
