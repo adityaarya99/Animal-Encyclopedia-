@@ -9,10 +9,16 @@
     <ImageView
         android:id="@+id/imageViewMain"
         android:layout_width="match_parent"
+        android:src="@drawable/a1"
         android:layout_height="wrap_content"
         android:background="@drawable/imageborder" />
+<TextView
+    android:id="@+id/imageViewText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
 
-    <LinearLayout
+    />
+    <!--<LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="10dp">
@@ -36,5 +42,5 @@
         android:layout_marginTop="15dp"
         android:backgroundTint="#ffffbb33"
         android:drawableRight="@drawable/ic_baseline_arrow"
-        android:text="Swipe Left" />
+        android:text="Swipe Left" />-->
 </LinearLayout>
